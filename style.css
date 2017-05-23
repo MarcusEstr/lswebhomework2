@@ -1,0 +1,130 @@
+/*Top navigation bar formatting
+Font family, weight, and color*/
+.navbar {
+  font-size: 12px;
+  font-family: Helvetica;
+}
+.navbar-header a, .navbar-right a{
+  color: white;
+  font-weight: 800;
+}
+.navbar-header a:hover, .navbar-right a:hover{
+  color: grey;
+  background-color: none;
+}
+
+/*"Header" is the element which contains the main big text and background image*/
+.intro-header {
+  padding: 132px;
+  width: 100%;
+  background-position: center;
+}
+.intro-header .post-heading h1{
+  font-family: 'Open Sans', Helvetica;
+  font-weight: 800;
+  font-size: 55px;
+  color: white;
+}
+.subheading{
+  color: white;
+  margin: 0;
+}
+.intro-header .post-heading .meta {
+  color: white;
+  font-size: 20px;
+  font-family: Lora,'Times New Roman',serif;
+  line-height: 400%;
+}
+/*Controlling the color of links and on hover*/
+.meta {
+  font-style: italic;
+}
+.meta a{ /*Meta is the header link "Start Bootstrap"*/
+  color: white;
+}
+.meta a:hover{
+  color: white;
+}
+.textwlink a { /*textwlink is links within paragraph text*/
+  color: black;
+  text-decoration: underline;
+}
+.textwlink a:hover{
+  color: #187cba; /*Blue*/
+}
+
+
+
+/*Article/Body content*/
+/*Defaults for the section*/
+.article {
+  max-width: 750px;
+  margin: auto;
+  font-family: Lora,'Times New Roman',serif;
+  font-size: 20px;
+  padding-right: 5px;
+  padding-top: 60px;
+}
+.maintext p {
+  padding-top: 20px;
+  line-height: 30px;
+}
+
+.mainheadertext p {
+  font-size: 36px;
+  padding-top: 44px;
+  font-family: 'Open Sans', Helvetica;
+  font-weight: 700;
+}
+
+/*Quote text and its highlight box*/
+.quote {
+  color: grey;
+  font-size: 17px;
+  font-style: italic;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  border-left: solid;
+  border-color:  #e6e6e6;
+}
+/*Article body image element*/
+.img-responsive {
+  margin-top: 20px;
+}
+.image {
+  font-size: 14px;
+  font-style: italic;
+  text-align: center;
+}
+
+/*Footer area*/
+.faicons, .copyright {
+  text-align: center;
+}
+.faicons {
+  font-size: 30px;
+  border-radius: 50%;
+  margin-top: 70px;
+  margin-bottom: 30px;
+}
+.fa { /*Creates circular backgrounds and color of icons*/
+  background-color: #363538; /*Dark grey*/
+  padding: 10px;
+  border-radius: 50%;
+  color: white;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.fa-facebook { /*Fixes "oblong" circle for FB icon*/
+padding-left: 15px;
+  padding-right: 15px;
+} 
+.fa:hover{
+  background-color: #187cba; /*Blue coloration for circle*/
+}
+.copyright {
+  font-family: Lora, "Times New Roman", serif;
+  font-size: 14px;
+  color: grey;
+  margin-bottom: 60px;
+}
